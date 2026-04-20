@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell *)",
+      "Bash(\"/c/Program Files/Amazon/AWSCLIV2/aws\" --version)",
+      "Bash(aws --version)",
+      "Read(//c/Program Files/Amazon/**)",
+      "Bash(npm install *)",
+      "Bash(punchlist-qa --version)",
+      "Bash(punchlist --version)",
+      "Bash(npx punchlist-qa *)",
+      "Bash(punchlist-qa *)",
+      "WebFetch(domain:hn.algolia.com)",
+      "WebFetch(domain:www.attendly.com)",
+      "WebFetch(domain:web.archive.org)",
+      "Bash(claude mcp *)",
+      "Bash(claude plugin *)",
+      "Bash(claude plugins *)"
+    ]
+  }
+}
